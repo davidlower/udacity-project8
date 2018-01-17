@@ -142,3 +142,13 @@ img {
    border-top: transparent;
    border-bottom: transparent;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 760px) {
+   html {
+      --card-width: 300px;
+      --card-height: 520px;
+      font-size: 12px;
+   }
+}
